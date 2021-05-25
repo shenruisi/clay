@@ -1,0 +1,11 @@
+@implementation NSDictionary(TFDictionary)
+
+- (id)objectForKeySafety:(id)aKey{
+id obj = [self objectForKey:aKey];
+if ([obj isEqual:[NSNull null]]) {
+return nil;
+}
+else
+return obj;
+}
+@end

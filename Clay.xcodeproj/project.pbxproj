@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3FA0791C82AA5C004AD077 /* Clay_Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3FA0771C82AA5C004AD077 /* Clay_Exception.h */; };
+		1FBC7B5B1C7C483400575CA2 /* Clay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBC7B4F1C7C483400575CA2 /* Clay.framework */; };
+		1FBC7B621C7C483400575CA2 /* ClayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B611C7C483400575CA2 /* ClayTests.m */; };
+		1FBC7B7E1C7C4A3100575CA2 /* Clay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B6E1C7C4A3100575CA2 /* Clay.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B7F1C7C4A3100575CA2 /* Clay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B6F1C7C4A3100575CA2 /* Clay.m */; };
+		1FBC7B811C7C4A3100575CA2 /* Clay_GOR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B711C7C4A3100575CA2 /* Clay_GOR.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B821C7C4A3100575CA2 /* Clay_GOR.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B721C7C4A3100575CA2 /* Clay_GOR.m */; };
+		1FBC7B831C7C4A3100575CA2 /* Clay_Help.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B731C7C4A3100575CA2 /* Clay_Help.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B841C7C4A3100575CA2 /* Clay_Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B741C7C4A3100575CA2 /* Clay_Help.m */; };
+		1FBC7B851C7C4A3100575CA2 /* Clay_LL+Expr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B751C7C4A3100575CA2 /* Clay_LL+Expr.m */; };
+		1FBC7B861C7C4A3100575CA2 /* Clay_LL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B761C7C4A3100575CA2 /* Clay_LL.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B871C7C4A3100575CA2 /* Clay_LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B771C7C4A3100575CA2 /* Clay_LL.m */; };
+		1FBC7B881C7C4A3100575CA2 /* Clay_Struct.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B781C7C4A3100575CA2 /* Clay_Struct.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B891C7C4A3100575CA2 /* Clay_Struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B791C7C4A3100575CA2 /* Clay_Struct.m */; };
+		1FBC7B8A1C7C4A3100575CA2 /* Clay_VMExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B7A1C7C4A3100575CA2 /* Clay_VMExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7B8B1C7C4A3100575CA2 /* Clay_VMExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7B7B1C7C4A3100575CA2 /* Clay_VMExecutor.m */; };
+		1FBC7B911C7C4B2000575CA2 /* Clay_LL+Expr.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7B901C7C4B2000575CA2 /* Clay_LL+Expr.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FBC7BD61C7C53E200575CA2 /* ClayTakeoff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC7BD41C7C53E200575CA2 /* ClayTakeoff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBC7BD71C7C53E200575CA2 /* ClayTakeoff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC7BD51C7C53E200575CA2 /* ClayTakeoff.m */; };
+		580AC0FE1CFBE1D0004C67ED /* Clay_Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 580AC0FC1CFBE1D0004C67ED /* Clay_Runtime.h */; };
+		580AC0FF1CFBE1D0004C67ED /* Clay_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AC0FD1CFBE1D0004C67ED /* Clay_Runtime.m */; };
+		580AC1001CFBE1D0004C67ED /* Clay_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AC0FD1CFBE1D0004C67ED /* Clay_Runtime.m */; };
+		580D65191D4A106F006C323E /* Clay_VM+Executor.h in Headers */ = {isa = PBXBuildFile; fileRef = 580D65171D4A106F006C323E /* Clay_VM+Executor.h */; };
+		580D651A1D4A106F006C323E /* Clay_VM+Executor.m in Sources */ = {isa = PBXBuildFile; fileRef = 580D65181D4A106F006C323E /* Clay_VM+Executor.m */; };
+		580D96C11CAEB20F002A02CF /* Clay_Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 580D96BF1CAEB20F002A02CF /* Clay_Object.h */; };
+		580D96C21CAEB20F002A02CF /* Clay_Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 580D96C01CAEB20F002A02CF /* Clay_Object.m */; };
+		58199AB31CCF9A7800392DB3 /* Clay_Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199AB21CCF9A7800392DB3 /* Clay_Exception.m */; };
+		58199AB41CCF9A7800392DB3 /* Clay_Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199AB21CCF9A7800392DB3 /* Clay_Exception.m */; };
+		58199AE71CE098AB00392DB3 /* Clay_Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 58199AE51CE098AB00392DB3 /* Clay_Tree.h */; };
+		58199AE81CE098AB00392DB3 /* Clay_Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199AE61CE098AB00392DB3 /* Clay_Tree.m */; };
+		58199AE91CE098AB00392DB3 /* Clay_Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199AE61CE098AB00392DB3 /* Clay_Tree.m */; };
+		58636DE91CF35C9400F35855 /* Clay_VM.h in Headers */ = {isa = PBXBuildFile; fileRef = 58636DE71CF35C9400F35855 /* Clay_VM.h */; };
+		58636DEA1CF35C9400F35855 /* Clay_VM.m in Sources */ = {isa = PBXBuildFile; fileRef = 58636DE81CF35C9400F35855 /* Clay_VM.m */; };
+		58636DEB1CF35C9400F35855 /* Clay_VM.m in Sources */ = {isa = PBXBuildFile; fileRef = 58636DE81CF35C9400F35855 /* Clay_VM.m */; };
+		58636DF71CF47ACF00F35855 /* Clay_CLObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 58636DF51CF47ACF00F35855 /* Clay_CLObjects.h */; };
+		58636DF81CF47ACF00F35855 /* Clay_CLObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 58636DF61CF47ACF00F35855 /* Clay_CLObjects.m */; };
+		58636DF91CF47ACF00F35855 /* Clay_CLObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 58636DF61CF47ACF00F35855 /* Clay_CLObjects.m */; };
+		58826DF01D52003800CDB1DF /* Clay_Kenel.h in Headers */ = {isa = PBXBuildFile; fileRef = 58826DEE1D52003800CDB1DF /* Clay_Kenel.h */; };
+		58826DF11D52003800CDB1DF /* Clay_Kenel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58826DEF1D52003800CDB1DF /* Clay_Kenel.m */; };
+		58AFAA271CCB6BBD00A12B15 /* Clay_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AFAA251CCB6BBD00A12B15 /* Clay_C.h */; };
+		58AFAA281CCB6BBD00A12B15 /* Clay_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFAA261CCB6BBD00A12B15 /* Clay_C.m */; };
+		58AFAA291CCB6BBD00A12B15 /* Clay_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFAA261CCB6BBD00A12B15 /* Clay_C.m */; };
+		58B416051D894BBB00AADCA5 /* ClayTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B416031D894BBB00AADCA5 /* ClayTestCase.h */; };
+		58B416061D894BBB00AADCA5 /* ClayTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B416041D894BBB00AADCA5 /* ClayTestCase.m */; };
+		58F81D271CB90DA600F4996B /* Clay_Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F81D251CB90DA600F4996B /* Clay_Define.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FBC7B5C1C7C483400575CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBC7B461C7C483400575CA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBC7B4E1C7C483400575CA2;
+			remoteInfo = Clay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3FA0771C82AA5C004AD077 /* Clay_Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Exception.h; sourceTree = "<group>"; };
+		1FBC7B4F1C7C483400575CA2 /* Clay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBC7B531C7C483400575CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBC7B5A1C7C483400575CA2 /* ClayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBC7B601C7C483400575CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBC7B611C7C483400575CA2 /* ClayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClayTests.m; sourceTree = "<group>"; };
+		1FBC7B6E1C7C4A3100575CA2 /* Clay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay.h; sourceTree = "<group>"; };
+		1FBC7B6F1C7C4A3100575CA2 /* Clay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay.m; sourceTree = "<group>"; };
+		1FBC7B711C7C4A3100575CA2 /* Clay_GOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_GOR.h; sourceTree = "<group>"; };
+		1FBC7B721C7C4A3100575CA2 /* Clay_GOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_GOR.m; sourceTree = "<group>"; };
+		1FBC7B731C7C4A3100575CA2 /* Clay_Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Help.h; sourceTree = "<group>"; };
+		1FBC7B741C7C4A3100575CA2 /* Clay_Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Help.m; sourceTree = "<group>"; };
+		1FBC7B751C7C4A3100575CA2 /* Clay_LL+Expr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Clay_LL+Expr.m"; sourceTree = "<group>"; };
+		1FBC7B761C7C4A3100575CA2 /* Clay_LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_LL.h; sourceTree = "<group>"; };
+		1FBC7B771C7C4A3100575CA2 /* Clay_LL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_LL.m; sourceTree = "<group>"; };
+		1FBC7B781C7C4A3100575CA2 /* Clay_Struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Struct.h; sourceTree = "<group>"; };
+		1FBC7B791C7C4A3100575CA2 /* Clay_Struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Struct.m; sourceTree = "<group>"; };
+		1FBC7B7A1C7C4A3100575CA2 /* Clay_VMExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_VMExecutor.h; sourceTree = "<group>"; };
+		1FBC7B7B1C7C4A3100575CA2 /* Clay_VMExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_VMExecutor.m; sourceTree = "<group>"; };
+		1FBC7B901C7C4B2000575CA2 /* Clay_LL+Expr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Clay_LL+Expr.h"; sourceTree = "<group>"; };
+		1FBC7BD41C7C53E200575CA2 /* ClayTakeoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayTakeoff.h; sourceTree = "<group>"; };
+		1FBC7BD51C7C53E200575CA2 /* ClayTakeoff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayTakeoff.m; sourceTree = "<group>"; };
+		580AC0FC1CFBE1D0004C67ED /* Clay_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Runtime.h; sourceTree = "<group>"; };
+		580AC0FD1CFBE1D0004C67ED /* Clay_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Runtime.m; sourceTree = "<group>"; };
+		580D65171D4A106F006C323E /* Clay_VM+Executor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Clay_VM+Executor.h"; sourceTree = "<group>"; };
+		580D65181D4A106F006C323E /* Clay_VM+Executor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Clay_VM+Executor.m"; sourceTree = "<group>"; };
+		580D96BF1CAEB20F002A02CF /* Clay_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Object.h; sourceTree = "<group>"; };
+		580D96C01CAEB20F002A02CF /* Clay_Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Object.m; sourceTree = "<group>"; };
+		58199AB21CCF9A7800392DB3 /* Clay_Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Exception.m; sourceTree = "<group>"; };
+		58199AE51CE098AB00392DB3 /* Clay_Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Tree.h; sourceTree = "<group>"; };
+		58199AE61CE098AB00392DB3 /* Clay_Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Tree.m; sourceTree = "<group>"; };
+		58636DE71CF35C9400F35855 /* Clay_VM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_VM.h; sourceTree = "<group>"; };
+		58636DE81CF35C9400F35855 /* Clay_VM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_VM.m; sourceTree = "<group>"; wrapsLines = 0; };
+		58636DF51CF47ACF00F35855 /* Clay_CLObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_CLObjects.h; sourceTree = "<group>"; };
+		58636DF61CF47ACF00F35855 /* Clay_CLObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_CLObjects.m; sourceTree = "<group>"; };
+		58826DEE1D52003800CDB1DF /* Clay_Kenel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Kenel.h; sourceTree = "<group>"; };
+		58826DEF1D52003800CDB1DF /* Clay_Kenel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_Kenel.m; sourceTree = "<group>"; };
+		58AFAA251CCB6BBD00A12B15 /* Clay_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_C.h; sourceTree = "<group>"; };
+		58AFAA261CCB6BBD00A12B15 /* Clay_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clay_C.m; sourceTree = "<group>"; };
+		58B416031D894BBB00AADCA5 /* ClayTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayTestCase.h; sourceTree = "<group>"; };
+		58B416041D894BBB00AADCA5 /* ClayTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayTestCase.m; sourceTree = "<group>"; };
+		58F81D251CB90DA600F4996B /* Clay_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clay_Define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBC7B4B1C7C483400575CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBC7B571C7C483400575CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBC7B5B1C7C483400575CA2 /* Clay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBC7B451C7C483400575CA2 = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B511C7C483400575CA2 /* Clay */,
+				1FBC7B5E1C7C483400575CA2 /* ClayTests */,
+				1FBC7B501C7C483400575CA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBC7B501C7C483400575CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B4F1C7C483400575CA2 /* Clay.framework */,
+				1FBC7B5A1C7C483400575CA2 /* ClayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBC7B511C7C483400575CA2 /* Clay */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B6D1C7C4A3100575CA2 /* src */,
+				1FBC7B521C7C483400575CA2 /* Supporting Files */,
+			);
+			path = Clay;
+			sourceTree = "<group>";
+		};
+		1FBC7B521C7C483400575CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B531C7C483400575CA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FBC7B5E1C7C483400575CA2 /* ClayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B611C7C483400575CA2 /* ClayTests.m */,
+				1FBC7B5F1C7C483400575CA2 /* Supporting Files */,
+			);
+			path = ClayTests;
+			sourceTree = "<group>";
+		};
+		1FBC7B5F1C7C483400575CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7B601C7C483400575CA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FBC7B6D1C7C4A3100575CA2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7BD41C7C53E200575CA2 /* ClayTakeoff.h */,
+				1FBC7BD51C7C53E200575CA2 /* ClayTakeoff.m */,
+				1FBC7B6E1C7C4A3100575CA2 /* Clay.h */,
+				1FBC7B6F1C7C4A3100575CA2 /* Clay.m */,
+				1FBC7B711C7C4A3100575CA2 /* Clay_GOR.h */,
+				1FBC7B721C7C4A3100575CA2 /* Clay_GOR.m */,
+				1FBC7B731C7C4A3100575CA2 /* Clay_Help.h */,
+				1FBC7B741C7C4A3100575CA2 /* Clay_Help.m */,
+				1FBC7B901C7C4B2000575CA2 /* Clay_LL+Expr.h */,
+				1FBC7B751C7C4A3100575CA2 /* Clay_LL+Expr.m */,
+				1FBC7B761C7C4A3100575CA2 /* Clay_LL.h */,
+				1FBC7B771C7C4A3100575CA2 /* Clay_LL.m */,
+				1FBC7B781C7C4A3100575CA2 /* Clay_Struct.h */,
+				1FBC7B791C7C4A3100575CA2 /* Clay_Struct.m */,
+				1FBC7B7A1C7C4A3100575CA2 /* Clay_VMExecutor.h */,
+				1FBC7B7B1C7C4A3100575CA2 /* Clay_VMExecutor.m */,
+				1F3FA0771C82AA5C004AD077 /* Clay_Exception.h */,
+				58199AB21CCF9A7800392DB3 /* Clay_Exception.m */,
+				580D96BF1CAEB20F002A02CF /* Clay_Object.h */,
+				580D96C01CAEB20F002A02CF /* Clay_Object.m */,
+				58F81D251CB90DA600F4996B /* Clay_Define.h */,
+				58AFAA251CCB6BBD00A12B15 /* Clay_C.h */,
+				58AFAA261CCB6BBD00A12B15 /* Clay_C.m */,
+				58199AE51CE098AB00392DB3 /* Clay_Tree.h */,
+				58199AE61CE098AB00392DB3 /* Clay_Tree.m */,
+				58636DE71CF35C9400F35855 /* Clay_VM.h */,
+				58636DE81CF35C9400F35855 /* Clay_VM.m */,
+				580D65171D4A106F006C323E /* Clay_VM+Executor.h */,
+				580D65181D4A106F006C323E /* Clay_VM+Executor.m */,
+				58636DF51CF47ACF00F35855 /* Clay_CLObjects.h */,
+				58636DF61CF47ACF00F35855 /* Clay_CLObjects.m */,
+				580AC0FC1CFBE1D0004C67ED /* Clay_Runtime.h */,
+				580AC0FD1CFBE1D0004C67ED /* Clay_Runtime.m */,
+				58826DEE1D52003800CDB1DF /* Clay_Kenel.h */,
+				58826DEF1D52003800CDB1DF /* Clay_Kenel.m */,
+				58B416031D894BBB00AADCA5 /* ClayTestCase.h */,
+				58B416041D894BBB00AADCA5 /* ClayTestCase.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FBC7B4C1C7C483400575CA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBC7BD61C7C53E200575CA2 /* ClayTakeoff.h in Headers */,
+				1FBC7B7E1C7C4A3100575CA2 /* Clay.h in Headers */,
+				1FBC7B8A1C7C4A3100575CA2 /* Clay_VMExecutor.h in Headers */,
+				1FBC7B811C7C4A3100575CA2 /* Clay_GOR.h in Headers */,
+				1FBC7B831C7C4A3100575CA2 /* Clay_Help.h in Headers */,
+				58636DF71CF47ACF00F35855 /* Clay_CLObjects.h in Headers */,
+				58F81D271CB90DA600F4996B /* Clay_Define.h in Headers */,
+				580AC0FE1CFBE1D0004C67ED /* Clay_Runtime.h in Headers */,
+				58636DE91CF35C9400F35855 /* Clay_VM.h in Headers */,
+				58826DF01D52003800CDB1DF /* Clay_Kenel.h in Headers */,
+				58B416051D894BBB00AADCA5 /* ClayTestCase.h in Headers */,
+				580D65191D4A106F006C323E /* Clay_VM+Executor.h in Headers */,
+				1F3FA0791C82AA5C004AD077 /* Clay_Exception.h in Headers */,
+				580D96C11CAEB20F002A02CF /* Clay_Object.h in Headers */,
+				58199AE71CE098AB00392DB3 /* Clay_Tree.h in Headers */,
+				1FBC7B881C7C4A3100575CA2 /* Clay_Struct.h in Headers */,
+				58AFAA271CCB6BBD00A12B15 /* Clay_C.h in Headers */,
+				1FBC7B911C7C4B2000575CA2 /* Clay_LL+Expr.h in Headers */,
+				1FBC7B861C7C4A3100575CA2 /* Clay_LL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FBC7B4E1C7C483400575CA2 /* Clay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBC7B651C7C483400575CA2 /* Build configuration list for PBXNativeTarget "Clay" */;
+			buildPhases = (
+				1FBC7B4A1C7C483400575CA2 /* Sources */,
+				1FBC7B4B1C7C483400575CA2 /* Frameworks */,
+				1FBC7B4C1C7C483400575CA2 /* Headers */,
+				1FBC7B4D1C7C483400575CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clay;
+			productName = Clay;
+			productReference = 1FBC7B4F1C7C483400575CA2 /* Clay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FBC7B591C7C483400575CA2 /* ClayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBC7B681C7C483400575CA2 /* Build configuration list for PBXNativeTarget "ClayTests" */;
+			buildPhases = (
+				1FBC7B561C7C483400575CA2 /* Sources */,
+				1FBC7B571C7C483400575CA2 /* Frameworks */,
+				1FBC7B581C7C483400575CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBC7B5D1C7C483400575CA2 /* PBXTargetDependency */,
+			);
+			name = ClayTests;
+			productName = ClayTests;
+			productReference = 1FBC7B5A1C7C483400575CA2 /* ClayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBC7B461C7C483400575CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "yin shen";
+				TargetAttributes = {
+					1FBC7B4E1C7C483400575CA2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1FBC7B591C7C483400575CA2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 1FBC7B491C7C483400575CA2 /* Build configuration list for PBXProject "Clay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FBC7B451C7C483400575CA2;
+			productRefGroup = 1FBC7B501C7C483400575CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBC7B4E1C7C483400575CA2 /* Clay */,
+				1FBC7B591C7C483400575CA2 /* ClayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBC7B4D1C7C483400575CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBC7B581C7C483400575CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBC7B4A1C7C483400575CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBC7B841C7C4A3100575CA2 /* Clay_Help.m in Sources */,
+				58826DF11D52003800CDB1DF /* Clay_Kenel.m in Sources */,
+				58199AB31CCF9A7800392DB3 /* Clay_Exception.m in Sources */,
+				580D651A1D4A106F006C323E /* Clay_VM+Executor.m in Sources */,
+				1FBC7B891C7C4A3100575CA2 /* Clay_Struct.m in Sources */,
+				580D96C21CAEB20F002A02CF /* Clay_Object.m in Sources */,
+				1FBC7B7F1C7C4A3100575CA2 /* Clay.m in Sources */,
+				580AC0FF1CFBE1D0004C67ED /* Clay_Runtime.m in Sources */,
+				58AFAA281CCB6BBD00A12B15 /* Clay_C.m in Sources */,
+				1FBC7B821C7C4A3100575CA2 /* Clay_GOR.m in Sources */,
+				1FBC7BD71C7C53E200575CA2 /* ClayTakeoff.m in Sources */,
+				1FBC7B851C7C4A3100575CA2 /* Clay_LL+Expr.m in Sources */,
+				58199AE81CE098AB00392DB3 /* Clay_Tree.m in Sources */,
+				1FBC7B8B1C7C4A3100575CA2 /* Clay_VMExecutor.m in Sources */,
+				58636DEA1CF35C9400F35855 /* Clay_VM.m in Sources */,
+				58636DF81CF47ACF00F35855 /* Clay_CLObjects.m in Sources */,
+				58B416061D894BBB00AADCA5 /* ClayTestCase.m in Sources */,
+				1FBC7B871C7C4A3100575CA2 /* Clay_LL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBC7B561C7C483400575CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58636DF91CF47ACF00F35855 /* Clay_CLObjects.m in Sources */,
+				58199AE91CE098AB00392DB3 /* Clay_Tree.m in Sources */,
+				58636DEB1CF35C9400F35855 /* Clay_VM.m in Sources */,
+				58AFAA291CCB6BBD00A12B15 /* Clay_C.m in Sources */,
+				580AC1001CFBE1D0004C67ED /* Clay_Runtime.m in Sources */,
+				58199AB41CCF9A7800392DB3 /* Clay_Exception.m in Sources */,
+				1FBC7B621C7C483400575CA2 /* ClayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FBC7B5D1C7C483400575CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBC7B4E1C7C483400575CA2 /* Clay */;
+			targetProxy = 1FBC7B5C1C7C483400575CA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FBC7B631C7C483400575CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FBC7B641C7C483400575CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FBC7B661C7C483400575CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yinshen/Downloads,
+				);
+				INFOPLIST_FILE = Clay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1FBC7B671C7C483400575CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yinshen/Downloads,
+				);
+				INFOPLIST_FILE = Clay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1FBC7B691C7C483400575CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FBC7B6A1C7C483400575CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBC7B491C7C483400575CA2 /* Build configuration list for PBXProject "Clay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBC7B631C7C483400575CA2 /* Debug */,
+				1FBC7B641C7C483400575CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBC7B651C7C483400575CA2 /* Build configuration list for PBXNativeTarget "Clay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBC7B661C7C483400575CA2 /* Debug */,
+				1FBC7B671C7C483400575CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBC7B681C7C483400575CA2 /* Build configuration list for PBXNativeTarget "ClayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBC7B691C7C483400575CA2 /* Debug */,
+				1FBC7B6A1C7C483400575CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBC7B461C7C483400575CA2 /* Project object */;
+}

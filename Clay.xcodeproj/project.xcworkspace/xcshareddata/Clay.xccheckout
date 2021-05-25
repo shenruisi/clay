@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A549AAF7-8C0C-4E83-82AF-E569EC152DAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Clay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0</key>
+		<string>shenyin.name:/srv/clay-iOS.git</string>
+		<key>4d259cd2-2288-4496-90ac-1fecec2761d0++93</key>
+		<string>svn://42.121.77.5</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Clay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0</key>
+		<string>../..</string>
+		<key>4d259cd2-2288-4496-90ac-1fecec2761d0++93</key>
+		<string>../../../Clay</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>shenyin.name:/srv/clay-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4d259cd2-2288-4496-90ac-1fecec2761d0++93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Clay</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>clay-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

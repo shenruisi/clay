@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4d259cd2-2288-4496-90ac-1fecec2761d0++93" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4d259cd2-2288-4496-90ac-1fecec2761d0++93" : 0,
+    "09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A549AAF7-8C0C-4E83-82AF-E569EC152DAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4d259cd2-2288-4496-90ac-1fecec2761d0++93" : "Clay",
+    "09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0" : "clay-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Clay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Clay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "shenyin.name:\/srv\/clay-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D5F6B08E9C149CBDFF79FF1B224AD2880FE8D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/42.121.77.5",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4d259cd2-2288-4496-90ac-1fecec2761d0++93"
+    }
+  ]
+}

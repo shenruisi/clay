@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Example/HowToUse/HowToUse.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/Hybird/Hybird.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/HotFix/HotFix.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Clay.xcodeproj">
+   </FileRef>
+</Workspace>
